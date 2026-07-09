@@ -58,6 +58,38 @@ Abra o terminal do seu computador (ou o terminal integrado do VS Code) e execute
 ```bash
 git clone [https://github.com/andrereistech/ErgonAuto-RPA.git](https://github.com/andrereistech/ErgonAuto-RPA.git)
 ```
+
+Em seguida, entre na pasta que foi criada:
+
+```bash
+cd ErgonAuto-RPA
+```
+### 3. Instalando as Dependências
+Este projeto utiliza bibliotecas externas para controlar o navegador e manipular os dados. Instale todas de uma vez rodando o comando:
+
+```Bash
+pip install selenium pandas openpyxl
+```
+### 4. Configurando Suas Variáveis (Adaptação)
+Para que o robô funcione no seu ambiente corporativo, abra o arquivo robo_relatorio.py no seu VS Code e edite as seguintes variáveis no início do código com as suas próprias informações:
+
+```Bash
+# Mude para o caminho da sua pasta local ou do seu Google Drive
+CAMINHO_DRIVE = r"C:\SeuCaminho\Para\Salvar\O\Excel"
+
+# Insira as credenciais de acesso ao seu sistema
+USUARIO_SISTEMA = "SEU_USUARIO_AQUI"
+SENHA_SISTEMA = "SUA_SENHA_AQUI"
+URL_SISTEMA = "[http://url-do-seu-sistema-ergon.com](http://url-do-seu-sistema.com)"
+```
+
+### 5. Executando o Robô
+Com tudo configurado, basta iniciar a automação executando o comando no terminal do VS Code:
+
+```Bash
+python robo_relatorio.py
+O robô irá abrir o navegador automaticamente, realizar o login, navegar pelas páginas, extrair o relatório bruto, aplicar as regras de tratamento de dados com o Pandas e salvar o arquivo final estruturado na pasta que você configurou!
+```
 ---
 
 ## 🤝 Coautoria e Desenvolvimento
