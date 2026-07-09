@@ -42,12 +42,22 @@ O ecossistema do projeto foi escolhido para garantir leveza, velocidade e facili
 
 ---
 
-## 🚀 Como Configurar e Executar
+## 🚀 Como Configurar e Executar (Guia para Clonar e Rodar)
 
-1. **Clone este repositório:**
-   ```bash
-   git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+Se você deseja replicar este projeto na sua máquina ou utilizá-lo como base para a sua própria automação, siga o passo a passo abaixo:
 
+### 1. Pré-requisitos Obrigatórios
+Antes de começar, certifique-se de ter instalado em seu computador:
+* **Python 3.x** instalado (e marcado a opção "Add Python to PATH" durante a instalação).
+* O navegador **Google Chrome** instalado.
+* O **Visual Studio Code (VS Code)** ou outra IDE de sua preferência.
+
+### 2. Clonando o Repositório
+Abra o terminal do seu computador (ou o terminal integrado do VS Code) e execute o comando abaixo para baixar o projeto:
+
+```bash
+git clone [https://github.com/andrereistech/ErgonAuto-RPA.git](https://github.com/andrereistech/ErgonAuto-RPA.git)
+```
 ---
 
 ## 🤝 Coautoria e Desenvolvimento
