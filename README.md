@@ -67,3 +67,10 @@ Este projeto foi **idealizado, planejado e direcionado por mim**, que identifiqu
 Para tirar o projeto do papel com máxima agilidade, utilizei a inteligência artificial **Gemini (Google)** como minha coautora técnica. Eu trouxe as regras de negócio, a lógica do processo e o escopo na cabeça, e o Gemini transformou essa visão em linhas de código Python puras, refinando os filtros do Pandas e estruturando a inteligência de download do robô.
 
 ---
+
+## 📫 Conecte-se Comigo
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andre-reis-tech/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/andrereistech)
+
+---
