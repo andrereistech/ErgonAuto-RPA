@@ -75,9 +75,11 @@ Para que o robô funcione no seu ambiente corporativo, abra o arquivo robo_relat
 
 ```Bash
 # Mude para o caminho da sua pasta local ou do seu Google Drive
+
 CAMINHO_DRIVE = r"C:\SeuCaminho\Para\Salvar\O\Excel"
 
 # Insira as credenciais de acesso ao seu sistema
+
 USUARIO_SISTEMA = "SEU_USUARIO_AQUI"
 SENHA_SISTEMA = "SUA_SENHA_AQUI"
 URL_SISTEMA = "[http://url-do-seu-sistema-ergon.com](http://url-do-seu-sistema.com)"
@@ -88,14 +90,15 @@ Com tudo configurado, basta iniciar a automação executando o comando no termin
 
 ```Bash
 python robo_relatorio.py
-O robô irá abrir o navegador automaticamente, realizar o login, navegar pelas páginas, extrair o relatório bruto, aplicar as regras de tratamento de dados com o Pandas e salvar o arquivo final estruturado na pasta que você configurou!
 ```
+
+O robô irá abrir o navegador automaticamente, realizar o login, navegar pelas páginas, extrair o relatório bruto, aplicar as regras de tratamento de dados com o Pandas e salvar o arquivo final estruturado na pasta que você configurou!
+
 ---
 
 ## 🤝 Coautoria e Desenvolvimento
 
 Este projeto foi **idealizado, planejado e direcionado por mim**, que identifiquei o gargalo operacional no dia a dia da empresa e desenhei todo o fluxo da solução. 
-
 Para tirar o projeto do papel com máxima agilidade, utilizei a inteligência artificial **Gemini (Google)** como minha coautora técnica. Eu trouxe as regras de negócio, a lógica do processo e o escopo na cabeça, e o Gemini transformou essa visão em linhas de código Python puras, refinando os filtros do Pandas e estruturando a inteligência de download do robô.
 
 ---
